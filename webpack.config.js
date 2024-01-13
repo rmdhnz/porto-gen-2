@@ -21,6 +21,22 @@ module.exports = {
         },
         exclude: /node_modules/,
       },
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
+      {
+        test: /\.(png,jpe?g,svg,gif)$/i,
+        type: "asset/resource",
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: "file-loader",
+          },
+        ],
+      },
     ],
   },
 };
