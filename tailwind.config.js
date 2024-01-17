@@ -1,11 +1,17 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Proxima Nova"', ...defaultTheme.fontFamily.sans],
+        monumen: ["monumen"],
+        poppins: ["poppins"],
+      },
+      colors: {
+        primary: "#FBAE3C",
+        danger: "#dc2626",
+        california: "#F69609",
       },
     },
   },

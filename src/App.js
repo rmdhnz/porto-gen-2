@@ -1,14 +1,12 @@
 import React from "react";
-import img from "./img/code.png";
+import MainContent from "./MainContent";
+import Navbar from "./components/Navbar";
 export default function App() {
+  const all = document.querySelector("*");
   return (
-    <div className="w-full min-h-screen flex flex-col justify-center items-center">
-      <div className="w-52 h-52 ">
-        <img src={img} alt="" className="rounded-lg" />
-      </div>
-      <h1 className="text-5xl font-sans font-semibold">
-        The quick brown fox jumps over the lazy dog
-      </h1>
-    </div>
+    <>
+      <Navbar />
+      <MainContent />
+    </>
   );
 }

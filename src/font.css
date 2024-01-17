@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "monumen";
+  src: url(./font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf);
+}
+
+div .font-monument {
+  font-family: monumen;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url(./font/Poppins-Regular.ttf);
+}

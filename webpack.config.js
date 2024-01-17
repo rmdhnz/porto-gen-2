@@ -6,7 +6,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/template.html",
     }),
-    new MiniCssExtractPlugin(),
   ],
   module: {
     rules: [
@@ -31,11 +30,10 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: "file-loader",
-          },
-        ],
+        loader: "file-loader",
+        options: {
+          name: "img/[name]-[hash].[ext]",
+        },
       },
     ],
   },
