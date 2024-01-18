@@ -8,7 +8,7 @@ export default function MainContent() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/project" element={<Project />} />
+          <Route path="project/" element={<Project />} />
         </Routes>
       </BrowserRouter>
     </>
