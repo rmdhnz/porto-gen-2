@@ -10,7 +10,7 @@ export default function Jumbotron() {
             <h3 className="font-poppins font-semibold text-lg dark:text-white">
               Hi Visitor 🖐, I am{" "}
             </h3>
-            <h1 className="text-2xl font-monumen uppercase dark:text-white">
+            <h1 className="text-2xl font-monumen uppercase dark:text-primary">
               Fadhly Ramadhan
             </h1>
             <p className="font-mono text-base text-slate-400">

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import logo from "../img/logo-web.png";
 import { FaMoon as Moony } from "react-icons/fa";
 import { IoIosSunny as Sunny } from "react-icons/io";
@@ -33,16 +33,16 @@ export default function Navbar() {
         <ul className="flex text-white">
           <li className="h-[50px] flex items-center">
             <a
-              href=""
-              className="h-full px-2 font-semibold flex items-center hover:bg-black hover:text-primary"
+              href="/"
+              className="h-full font-poppins px-2 font-semibold flex items-center hover:bg-black hover:text-primary"
             >
               Dashboard
             </a>
           </li>
           <li className="h-[50px] flex items-center">
             <a
-              href=""
-              className="h-full px-2 font-semibold flex items-center hover:bg-black hover:text-primary"
+              href="/project"
+              className="h-full font-poppins px-2 font-semibold flex items-center hover:bg-black hover:text-primary"
             >
               Project
             </a>
