@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./img/aslab.JPG";
+import img from "./img/blurry.png";
 import Card from "./components/Card";
 export default function Project() {
   return (
