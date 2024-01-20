@@ -4483,7 +4483,7 @@ function Jumbotron() {
     className: "font-poppins font-semibold text-lg dark:text-white"
   }, "Hi Visitor \uD83D\uDD90, I am", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
     className: "text-2xl font-monumen uppercase dark:text-primary"
-  }, "Fadhly Ramadhan"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "Fadhly Ramadhanz"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "font-mono text-base text-slate-400"
   }, "One day, I'll have", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "text-slate-800 font-semibold dark:text-white"
