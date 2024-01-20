@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "webpack serve --config webpack.prod.js",
+    "serve": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack --config webpack.dev.js",
     "tw": "npx tailwindcss -i ./src/input.css -o ./src/style.css --watch",
