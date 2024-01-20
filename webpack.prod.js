@@ -19,4 +19,9 @@ module.exports = merge(config, {
   optimization: {
     minimizer: [`...`, new CssMinimizerPlugin()],
   },
+  devServer: {
+    port: 3000,
+    liveReload: true,
+    historyApiFallback: true,
+  },
 });
