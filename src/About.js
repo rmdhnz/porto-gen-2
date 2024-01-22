@@ -2,7 +2,7 @@ import React from "react";
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 export default function About() {
   return (
-    <section className="w-full dark:bg-slate-900 flex py-32  justify-center">
+    <section className="w-full dark:bg-slate-900 flex px-8 py-32 justify-center">
       <div className="container">
         <h1 className="font-monumen px-4 text-primary text-3xl">About Me</h1>
         <div className="flex flex-wrap">

@@ -3,7 +3,6 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
   entry: {
     main: "./src/index.js",
-    vendor: "./src/vendor.js",
   },
   plugins: [
     new HtmlWebpackPlugin({

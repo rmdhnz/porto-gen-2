@@ -34,7 +34,7 @@ export default function Navbar() {
           <li className="h-[50px] flex items-center">
             <a
               href="/"
-              className="h-full font-poppins px-2 font-semibold flex items-center hover:bg-black hover:text-primary"
+              className="h-full font-poppins px-2 font-semibold flex items-center hover:bg-black hover:text-primary dark:hover:text-white dark:hover:bg-primary"
             >
               Dashboard
             </a>
@@ -42,7 +42,7 @@ export default function Navbar() {
           <li className="h-[50px] flex items-center">
             <a
               href="/project"
-              className="h-full font-poppins px-2 font-semibold flex items-center hover:bg-black hover:text-primary"
+              className="h-full font-poppins px-2 font-semibold flex items-center hover:bg-black hover:text-primary dark:hover:text-white dark:hover:bg-primary"
             >
               Project
             </a>
