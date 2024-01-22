@@ -7,7 +7,7 @@ module.exports = merge(config, {
   devtool: false,
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "main.bundle.js",
+    filename: "[name].bundle.js",
     clean: true,
     assetModuleFilename: "img/[name][ext]",
   },
@@ -17,8 +17,11 @@ module.exports = merge(config, {
     }),
   ],
   devServer: {
+    static: {
+      directory: path.join(__dirname, "src"),
+    },
     port: 3000,
-    liveReload: true,
     historyApiFallback: true,
+    liveReload: true,
   },
 });
