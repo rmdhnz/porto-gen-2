@@ -6,7 +6,7 @@ module.exports = merge(config, {
   mode: "development",
   devtool: false,
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "public"),
     filename: "[name].bundle.js",
     clean: true,
     assetModuleFilename: "img/[name][ext]",

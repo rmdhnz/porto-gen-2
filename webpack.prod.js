@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = merge(config, {
   mode: "production",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "public"),
     filename: "[name]-[contenthash].bundle.js",
     clean: true,
     assetModuleFilename: "img/[name]-[hash][ext]",

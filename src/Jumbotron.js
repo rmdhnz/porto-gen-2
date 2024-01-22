@@ -8,7 +8,7 @@ export default function Jumbotron() {
         <div className="flex justify-center flex-wrap">
           <div className="mt-3 md:w-1/2">
             <h3 className="font-poppins font-semibold text-lg dark:text-white">
-              Hi Visitor 🖐, I am{" "}
+              Hi Visitor 🖐,My name is{" "}
             </h3>
             <h1 className="text-2xl font-monumen uppercase dark:text-primary">
               Fadhly Ramadhan
