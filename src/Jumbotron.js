@@ -11,7 +11,7 @@ export default function Jumbotron() {
               Hi Visitor 🖐, I am{" "}
             </h3>
             <h1 className="text-2xl font-monumen uppercase dark:text-primary">
-              Fadhly Ramadhanz
+              Fadhly Ramadhan
             </h1>
             <p className="font-mono text-base text-slate-400">
               One day, I'll have{" "}
