@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import profile_pic from "./img/aslab-nobg.png";
 import { FaUserFriends } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 import { IoIosCloseCircle as Close } from "react-icons/io";
+
 export default function Jumbotron() {
   const [showModal, setShowModal] = useState(false);
   return (
@@ -70,11 +72,11 @@ export default function Jumbotron() {
         </div>
       </section>
       <div
-        className={`fixed top-0 bottom-0 flex justify-center items-center left-0 right-0 bg-black/60 z-[999] ${
+        className={`fixed px-4 top-0 bottom-0 flex justify-center items-center left-0 right-0 bg-black/60 z-[999] ${
           showModal ? "" : "hidden"
         }`}
       >
-        <div className="w-1/2 bg-white dark:bg-slate-600 rounded-md font-poppins">
+        <div className="w-full md:w-1/2 bg-white dark:bg-slate-600 rounded-md font-poppins">
           <div className="p-3 flex justify-between items-center">
             <p className="dark:text-white">Connect Me</p>
             <Close
@@ -84,12 +86,17 @@ export default function Jumbotron() {
           </div>
           <hr className="border-t-4 border-t-primary" />
           <div className="p-3">
-            <p className="text-justify dark:text-white">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
-              laudantium, accusamus dicta eveniet, distinctio facilis,
-              perferendis possimus consequuntur praesentium dolore repudiandae
-              voluptas a iure saepe dolor aperiam voluptate? Labore, quas.
-            </p>
+            <div className="flex justify-around dark:text-white">
+              <a href="/">
+                <FaGithub className="text-5xl hover:text-primary" />
+              </a>
+              <a href="/">
+                <FaInstagram className="text-5xl hover:text-primary" />
+              </a>
+              <a href="/">
+                <FaLinkedin className="text-5xl hover:text-primary" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

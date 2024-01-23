@@ -23,18 +23,30 @@ export default function About() {
               Let's Get Mutual
             </h1>
             <p className="text-justify font-poppins mt-3 dark:text-white">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              let's get to know each other and get closer to me through
             </p>
             <div className="mt-3 dark:text-white  flex gap-2">
-              <div className="border-2 hover:cursor-pointer hover:bg-primary border-black dark:border-white rounded-full p-1">
+              <a
+                href="/"
+                target="_blank"
+                className="border-2 hover:cursor-pointer hover:bg-primary border-black dark:border-white rounded-full p-1"
+              >
                 <FaGithub className="text-3xl" />
-              </div>
-              <div className="border-2 hover:cursor-pointer hover:bg-primary border-black dark:border-white rounded-full p-1">
+              </a>
+              <a
+                href="/"
+                target="_blank"
+                className="border-2 hover:cursor-pointer hover:bg-primary border-black dark:border-white rounded-full p-1"
+              >
                 <FaInstagram className="text-3xl" />
-              </div>
-              <div className="border-2 hover:cursor-pointer hover:bg-primary border-black dark:border-white rounded-full p-1">
+              </a>
+              <a
+                href="/"
+                target="_blank"
+                className="border-2 hover:cursor-pointer hover:bg-primary border-black dark:border-white rounded-full p-1"
+              >
                 <FaLinkedin className="text-3xl" />
-              </div>
+              </a>
             </div>
           </div>
         </div>
