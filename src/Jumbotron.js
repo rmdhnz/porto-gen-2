@@ -87,13 +87,13 @@ export default function Jumbotron() {
           <hr className="border-t-4 border-t-primary" />
           <div className="p-3">
             <div className="flex justify-around dark:text-white">
-              <a href="/">
+              <a href="https://github.com/rmdhnz/">
                 <FaGithub className="text-5xl hover:text-primary" />
               </a>
-              <a href="/">
+              <a href="https://www.instagram.com/fadhlyrmdhnz/">
                 <FaInstagram className="text-5xl hover:text-primary" />
               </a>
-              <a href="/">
+              <a href="https://www.linkedin.com/in/fadhly-ramadhan/">
                 <FaLinkedin className="text-5xl hover:text-primary" />
               </a>
             </div>

@@ -59,21 +59,21 @@ export default function About() {
             </p>
             <div className="mt-3 dark:text-white  flex gap-2">
               <a
-                href="/"
+                href="https://github.com/rmdhnz/"
                 target="_blank"
                 className="border-2 hover:cursor-pointer hover:bg-primary border-black dark:border-white rounded-full p-1"
               >
                 <FaGithub className="text-3xl" />
               </a>
               <a
-                href="/"
+                href="https://www.instagram.com/fadhlyrmdhnz/"
                 target="_blank"
                 className="border-2 hover:cursor-pointer hover:bg-primary border-black dark:border-white rounded-full p-1"
               >
                 <FaInstagram className="text-3xl" />
               </a>
               <a
-                href="/"
+                href="https://www.linkedin.com/in/fadhly-ramadhan/"
                 target="_blank"
                 className="border-2 hover:cursor-pointer hover:bg-primary border-black dark:border-white rounded-full p-1"
               >
