@@ -11,3 +11,13 @@ div .font-monument {
   font-family: "poppins";
   src: url(./font/Poppins-Regular.ttf);
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px gray;
+}
+::-webkit-scrollbar-thumb {
+  background: #fbae3c;
+  border-radius: 10px;
+}
