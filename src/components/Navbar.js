@@ -49,7 +49,7 @@ export default function Navbar() {
           </li>
         </ul>
         <div
-          className="flex hover:cursor-pointer text-white relative dark:border-primary border-2 rounded-full w-14 justify-between py-1"
+          className="flex bg-white hover:cursor-pointer text-black relative dark:border-primary border-2 rounded-full w-14 justify-between py-1"
           onClick={() => {
             setDark(!dark);
             if (dark) {
@@ -60,15 +60,15 @@ export default function Navbar() {
           }}
         >
           <div>
-            <Sunny className="dark:text-primary" />
+            <Sunny className="" />
           </div>
           <div
             className={`w-1/2 ${
               dark ? "translate-x-[100%]" : "translate-x-0"
-            } top-0 h-full rounded-full absolute bg-white duration-500 opacity-70 `}
+            } top-0 h-full rounded-full absolute bg-primary duration-500 opacity-70 `}
           ></div>
           <div>
-            <Moony className="dark:text-primary" />
+            <Moony className="" />
           </div>
         </div>
       </div>
